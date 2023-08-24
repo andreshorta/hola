@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinador 2.0</title>
+    <link rel="stylesheet" href="resources/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adivinador 2.0</h1>
+      <p id="instructions">Dispones de 10 intentos para adivinar el número secreto en un rango de valores de 1 a 1000.</p>
+      <p>Rango de valores: 1 a 1000 inclusive.</p>
+      <div id="output"></div>
+      <div id="attemptsCounter" class="win">Próximo intento 1</div>
+      <!--Cambiamos el mensaje inicial -->
+      <input type="number" id="guess" placeholder="Introduce tu intento" />
+      <button id="submit">Intentar</button>
+      <button id="retry" style="display: none">Intentar de nuevo</button>
+    </div>
+    <div
+            id="additional-content"
+            style="display: block; text-align: center; margin-top: 20px"
+    >
+      <p>
+        Desarrollé un juego adivinador en dos repositorios diferentes. Uno está implementado en Java, 
+        mientras que el otro utiliza JavaScript, HTML y CSS. El juego genera un número aleatorio entre 
+        1 y 1000, brindando a los jugadores 10 intentos para adivinar. Proporciona pistas sobre si el 
+        número es mayor o menor y muestra mensajes de victoria o derrota según el resultado.
+      </p>
+      <button id="hide-content">Ocultar Descripción</button>
+
+      <a href="https://github.com/andreshorta/JavaAdivinador2.0" target="_blank"
+        >Repositorio Java</a
+      >
+      <a href="https://github.com/andreshorta/Adivinador2.0" target="_blank"
+        >Repositorio JavaScript, HTML y CSS</a
+      >
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+<!--
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinador 2.0</title>
+    <link rel="stylesheet" href="resources/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adivinador 2.0</h1>
+      <p id="instructions">Dispones de 10 intentos para adivinar.</p>
+      <p>Rango de valores: 1 a 1000 inclusive.</p>
+      <div id="output"></div>
+      <div id="attemptsCounter" class="win">Próximo intento 1</div>
+  
+      <input type="number" id="guess" placeholder="Introduce tu intento" />
+      <button id="submit">Intentar</button>
+      <button id="retry" style="display: none">Intentar de nuevo</button>
+    </div>
+    <div
+      id="additional-content"
+      style="display: block; text-align: center; margin-top: 20px"
+    >
+      <p>
+        Descripción adicional: Aquí puedes agregar más detalles sobre tu
+        proyecto.
+      </p>
+      <button id="hide-content">Ocultar Descripción</button>
+
+      <a href="https://github.com/andreshorta/JavaAdivinador2.0" target="_blank"
+        >Repositorio Java</a
+      >
+      <a href="https://github.com/andreshorta/Adivinador2.0" target="_blank"
+        >Repositorio JavaScript, HTML y CSS</a
+      >
+    </div>
+    <div>
+      <button id="show-content">Ver Descripción</button>
+    </div>
+    <!--<button id="show-content">Ver Descripción</button> -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+-->
